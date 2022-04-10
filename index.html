@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>クイズサイト</title>
+</head>
+<body>
+    <div class="container">
+      <div class="quiz-wrapper">
+        <h1>新着クイズ</h1>
+        <div class="question">
+          <h2>問題</h2>
+          <div id="js-question" class="question-item" role="alert">
+            ここに問題が表示されます
+          </div>
+        </div>
+        
+        <div id="js-items" class="answers">
+          <div class="answer-flex">
+          <div class="answer">
+            <button type="button" id="js-btn-1" class="btn btn-answer">選択肢1</button>
+          </div>
+          <div class="answer">
+            <button type="button" id="js-btn-2" class="btn btn-answer">選択肢2</button>
+          </div>
+          <div class="answer">
+            <button type="button" id="js-btn-3" class="btn btn-answer">選択肢3</button>
+          </div>
+          <div class="answer">
+            <button type="button" id="js-btn-4" class="btn btn-answer">選択肢4</button>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

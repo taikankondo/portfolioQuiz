@@ -1,0 +1,175 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.body{
+    background-color: rgb(235, 235, 235);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quiz-wrapper{
+    width:90%;
+    margin: 0 auto;
+}
+
+
+.question{
+    text-align: center;
+}
+
+h1{
+    font-size:35px;
+    padding: 10px 15px;
+    color: #494949;
+    border-left: solid 5px #7db4e6;
+    margin-bottom:60px;
+    background-color: #FFF;
+}
+
+
+h2{
+    font-size:30px;
+    display:inline-block;
+    color: #494949;
+}
+
+
+
+#js-question{
+    width:100%;
+    height: 120px;
+    padding-top:30px;
+    margin-top:40px;
+    font-size:32px;
+    background-color:rgb(203, 240, 255);
+    border: 1px solid rgb(161, 227, 253);
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.6);
+}
+
+.question h2{
+    margin-top:30px;
+}
+
+.answer-flex{
+    width:100%;
+    display: flex;
+    padding-bottom:100px;
+}
+
+.answer{
+    margin-top:45px;
+    width:100%;
+}
+
+.btn-answer{
+    width:98%;
+    border:none;
+    border-radius:5px;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: 4px solid  #627295;
+    box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.6);
+    height:70px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-answer:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
